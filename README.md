@@ -71,8 +71,8 @@ Project Link: [https://github.com/your-username/rag-search-pipeline](https://git
 
 ---
 
-<p align="center">
+
   Made with ❤️ and ☕ by jrobx
-</p>
+
 
 ```
