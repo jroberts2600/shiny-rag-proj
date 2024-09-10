@@ -67,10 +67,6 @@ This project is licensed under the MIT License
 - All the awesome python contributors and users of this project!
 
 
-Project Link: [https://github.com/your-username/rag-search-pipeline](https://github.com/your-username/rag-search-pipeline)
-
----
-
 
   Made with ❤️ and ☕ by jrobx
 
