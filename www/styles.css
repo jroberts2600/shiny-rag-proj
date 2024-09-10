@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+  --tron-black: #000000;
+  --tron-dark-blue: #001320;
+  --tron-blue: #007fd4;
+  --tron-light-blue: #00ffff;
+  --tron-white: #ffffff;
+  --tron-orange: #ff6600;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--tron-black);
+  color: var(--tron-light-blue);
+  background-image: 
+    linear-gradient(0deg, transparent 24%, rgba(0, 255, 255, .05) 25%, rgba(0, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(0, 255, 255, .05) 75%, rgba(0, 255, 255, .05) 76%, transparent 77%, transparent),
+    linear-gradient(90deg, transparent 24%, rgba(0, 255, 255, .05) 25%, rgba(0, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(0, 255, 255, .05) 75%, rgba(0, 255, 255, .05) 76%, transparent 77%, transparent);
+  background-size: 50px 50px;
+}
+
+.header {
+  background: var(--tron-dark-blue);
+  color: var(--tron-light-blue);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid var(--tron-blue);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.header h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0;
+  text-shadow: 0 0 10px var(--tron-light-blue);
+}
+
+.content-card {
+  background-color: rgba(0, 127, 212, 0.1);
+  border: 2px solid var(--tron-blue);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+}
+
+.content-card h3 {
+  font-family: 'Orbitron', sans-serif;
+  color: var(--tron-light-blue);
+  border-bottom: 2px solid var(--tron-blue);
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  text-shadow: 0 0 5px var(--tron-light-blue);
+}
+
+input[type="text"], select, .selectize-input {
+  background-color: var(--tron-dark-blue) !important;
+  border: 2px solid var(--tron-blue) !important;
+  color: var(--tron-light-blue) !important;
+  padding: 10px !important;
+  font-family: 'Roboto', sans-serif !important;
+  border-radius: 4px !important;
+  transition: all 0.3s ease !important;
+}
+
+input[type="text"]:focus, select:focus, .selectize-input.focus {
+  outline: none !important;
+  box-shadow: 0 0 15px var(--tron-light-blue) !important;
+  border-color: var(--tron-light-blue) !important;
+}
+
+.btn, .action-button {
+  background: var(--tron-blue) !important;
+  color: var(--tron-white) !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  font-family: 'Orbitron', sans-serif !important;
+  font-size: 0.9em !important;
+  text-transform: uppercase !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  border-radius: 4px !important;
+  margin: 5px !important;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5) !important;
+}
+
+.btn:hover, .action-button:hover {
+  background: var(--tron-light-blue) !important;
+  color: var(--tron-black) !important;
+  box-shadow: 0 0 20px var(--tron-light-blue) !important;
+}
+
+.form-file {
+  border: 2px dashed var(--tron-blue) !important;
+  padding: 20px !important;
+  text-align: center !important;
+  border-radius: 8px !important;
+  background-color: rgba(0, 127, 212, 0.1) !important;
+  transition: all 0.3s ease !important;
+}
+
+.form-file:hover {
+  background-color: rgba(0, 127, 212, 0.2) !important;
+  border-color: var(--tron-light-blue) !important;
+}
+
+.response-container {
+  background-color: rgba(0, 127, 212, 0.1) !important;
+  border: 2px solid var(--tron-blue) !important;
+  border-radius: 8px !important;
+  padding: 15px !important;
+  margin-top: 20px !important;
+  position: relative !important;
+  font-size: 1.1em !important;
+  line-height: 1.6 !important;
+  max-height: 500px !important;
+  overflow-y: auto !important;
+}
+
+#response {
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  padding-right: 40px !important;
+  margin-top: 0 !important;
+}
+
+.copy-btn {
+  position: absolute !important;
+  top: 10px !important;
+  left: 10px !important;
+  background-color: var(--tron-orange) !important;
+  color: var(--tron-white) !important;
+  border: none !important;
+  padding: 5px 10px !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  font-family: 'Orbitron', sans-serif !important;
+  font-size: 0.8em !important;
+  transition: all 0.3s ease !important;
+  z-index: 10 !important;
+  box-shadow: 0 0 10px rgba(255, 102, 0, 0.5) !important;
+}
+
+.copy-btn:hover {
+  background-color: var(--tron-light-blue) !important;
+  color: var(--tron-black) !important;
+  box-shadow: 0 0 15px var(--tron-light-blue) !important;
+}
+
+.status-message {
+  padding: 10px !important;
+  margin-top: 10px !important;
+  border-radius: 4px !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold !important;
+}
+
+.status-message.success {
+  background-color: rgba(0, 255, 0, 0.2) !important;
+  color: #00ff00 !important;
+  border: 1px solid #00ff00 !important;
+}
+
+.status-message.error {
+  background-color: rgba(255, 0, 0, 0.2) !important;
+  color: #ff0000 !important;
+  border: 1px solid #ff0000 !important;
+}
+
+/* Ensure text is visible on dark backgrounds */
+.selectize-dropdown, .selectize-input item {
+  color: var(--tron-light-blue) !important;
+  background-color: var(--tron-dark-blue) !important;
+}
+
+/* Style scrollbars for WebKit browsers */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--tron-dark-blue);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--tron-blue);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--tron-light-blue);
+}
+
+/* Custom scrollbar for the response container */
+.response-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.response-container::-webkit-scrollbar-track {
+  background: var(--tron-dark-blue);
+  border-radius: 8px;
+}
+
+.response-container::-webkit-scrollbar-thumb {
+  background: var(--tron-blue);
+  border-radius: 8px;
+}
+
+.response-container::-webkit-scrollbar-thumb:hover {
+  background: var(--tron-light-blue);
+}
+
+/* Tron-inspired loading animation */
+@keyframes tron-pulse {
+  0% { opacity: 0.4; }
+  50% { opacity: 1; }
+  100% { opacity: 0.4; }
+}
+
+.loading::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--tron-light-blue);
+  animation: tron-pulse 2s infinite;
+  box-shadow: 0 0 10px var(--tron-light-blue);
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  color: var(--tron-light-blue);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5em;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid var(--tron-blue);
+  border-top: 3px solid var(--tron-light-blue);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-right: 10px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
