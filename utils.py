@@ -20,8 +20,6 @@ from unstructured.partition.text import partition_text
 from unstructured.partition.image import partition_image
 from unstructured.partition.pptx import partition_pptx
 import requests
-import nltk
-nltk.download('punkt')  # Download necessary NLTK data
 import re
 from urllib3.exceptions import NewConnectionError
 from requests.exceptions import RequestException, ConnectionError
