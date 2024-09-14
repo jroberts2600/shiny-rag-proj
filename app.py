@@ -270,4 +270,5 @@ def server(input, output, session):
 app = App(app_ui, server)
 
 if __name__ == "__main__":
-    app.run()
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
