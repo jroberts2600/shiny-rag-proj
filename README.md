@@ -61,9 +61,14 @@ This project is licensed under the MIT License
 
 ## 🙏 Acknowledgements
 
+- [unstructured.io](https://github.com/unstructured-io/unstructured)
 - [Shiny for Python](https://shiny.rstudio.com/py/)
 - [LangChain](https://github.com/hwchase17/langchain)
 - [Hugging Face](https://huggingface.co/)
+- [OpenAI](https://openai.com/)
+- [Ollama](https://ollama.com/)
+- [Claude](https://claude.ai/)
+- [Chroma](https://github.com/chroma-core/chroma)
 - All the awesome python contributors and users of this project!
 
 
