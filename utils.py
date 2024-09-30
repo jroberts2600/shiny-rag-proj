@@ -40,7 +40,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 sentence_model = SentenceTransformer('all-MiniLM-L6-v2')
 
 
-MAX_FILE_SIZE = 20 * 1024 * 1024  # 20 MB
+MAX_FILE_SIZE = 100 * 1024 * 1024  # 100 MB
 
 def is_ollama_available(host="localhost", port="11434"):
     try:
