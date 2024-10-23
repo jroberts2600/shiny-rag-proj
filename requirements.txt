@@ -4,7 +4,7 @@ langchain
 langchain-community
 openai
 chromadb
-unstructured
+unstructured[all-deps]
 python-docx
 pypdf
 pytesseract
@@ -14,7 +14,6 @@ pillow-heif
 matplotlib
 unstructured-inference
 unstructured-pytesseract
-unstructured[pdf]
 python-pptx
 tiktoken
 langchain-anthropic
